@@ -6,7 +6,7 @@ matplotlib.use("TkAgg")
 import matplotlib.pyplot as plt
 
 nusc = NuScenes(version='v1.0-mini',
-                dataroot="/Users/shreysharma/Documents/ML@Purdue/robot_vision_onboarding/nuscenes")
+                dataroot="/Users/shreysharma/Documents/ML@Purdue/robot_vision_onboarding/nuscenes") # Change depending data location
 
 # nusc.list_scenes()
 # my_scene = nusc.scene[0]
